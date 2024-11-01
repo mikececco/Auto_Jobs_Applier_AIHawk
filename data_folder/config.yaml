@@ -10,8 +10,8 @@ experienceLevel:
 
 jobTypes:
   full-time: true
-  contract: false
-  part-time: false
+  contract: true
+  part-time: true
   temporary: true
   internship: false
   other: false
@@ -20,22 +20,29 @@ jobTypes:
 date:
   all time: false
   month: false
-  week: false
+  week: true
   24 hours: true
 
 positions:
-  - Software engineer
+  - Product Manager
+  - Product Growth
 
 locations:
+  - Europe
   - Germany
+  - Italy
+  - Netherlands
+  - France
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - Sprinque
+  - Orderchamp
+  - Gigstarter
+  - Grassroots
 
 title_blacklist:
   - word1
@@ -48,6 +55,6 @@ job_applicants_threshold:
   min_applicants: 0
   max_applicants: 30
 
-llm_model_type: openai
-llm_model: 'gpt-4o-mini'
-# llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
+llm_model_type: gemini
+llm_model: 'gemini-1.5-flash'
+llm_api_url: 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent'

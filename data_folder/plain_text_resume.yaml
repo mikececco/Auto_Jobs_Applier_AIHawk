@@ -5,68 +5,88 @@ personal_information:
   country: "Italy"
   city: "[Your City]"
   address: "[Your Address]"
-  zip_code: "[Your zip code]"
+  zip_code: "36057"
   phone_prefix: "[Your Phone Prefix]"
   phone: "[Your Phone Number]"
   email: "mikececco2000@gmail.com"
-  github: "github.com/mikececco"
-  linkedin: "mikececconello"
+  github: "https://github.com/mikececco"
+  linkedin: "https://www.linkedin.com/in/mikececconello/"
 
 education_details:
   - education_level: "Bachelor of Science"
     institution: "H-Farm College"
     field_of_study: "Digital Management"
-    final_evaluation_grade: "[Your Final Evaluation Grade]"
+    final_evaluation_grade: "110"
     start_date: "[Start Date]"
     year_of_completion: "2022"
-  
   - education_level: "Bootcamp"
     institution: "Le Wagon"
     field_of_study: "Full Stack Web Development"
+    final_evaluation_grade: "110"
     location: "Amsterdam, NL"
     start_date: "01/23"
-    year_of_completion: "03/23"
+    year_of_completion: "2023"
 
 experience_details:
   - position: "AI Fullstack Product Engineer"
     company: "H-FARM AI"
     employment_period: "10/24 - now"
     location: "remote"
+    industry: "Technology"
     key_responsibilities:
-      - responsibility_1: "Implementing AI-based categorization system for client portfolio companies (Next.js)"
-
+      - responsibility: "Implementing AI-based categorization system for client portfolio companies (Next.js)"
+    skills_acquired:
+      - "NextJs"
+      - "AI"
+      - "RAG"
   - position: "Software Automation Engineer"
     company: "iMapper"
     employment_period: "06/24 - now"
     location: "remote"
+    industry: "Technology"
     key_responsibilities:
-      - responsibility_1: "Built v1 automated order management system (Google App Script-Javascript + NoCode tools + APIs)"
-      - responsibility_2: "Building internal dashboards aggregating data for marketing team (MetaAds, GoogleAds, Javascript, Make.com)"
-      - responsibility_3: "Improving customer onboarding flow with AI-agents"
-
+      - responsibility: "Built v1 automated order management system (Google App Script-Javascript + NoCode tools + APIs)"
+      - responsibility: "Building internal dashboards aggregating data for marketing team (MetaAds, GoogleAds, Javascript, Make.com)"
+      - responsibility: "Improving customer onboarding flow with AI-agents"
+    skills_acquired:
+      - "Zapier"
+      - "Airtable"
+      - "Javscript"
   - position: "Fullstack Product Engineer"
     company: "Gigstarter"
     employment_period: "03/23 - now"
     location: "remote"
+    industry: "Technology"
     key_responsibilities:
-      - responsibility_1: "Designed, developed and tested sign-up paywall with Mollie (estimated revenue boost: +10%)"
-      - responsibility_2: "Implemented background jobs (Sidekiq-ActiveJobs) to handle delayed actions"
-      - responsibility_3: "Researching architecture for OpenAPI to enable third-party services integration"
-
+      - responsibility: "Designed, developed and tested sign-up paywall with Mollie (estimated revenue boost: +10%)"
+      - responsibility: "Implemented background jobs (Sidekiq-ActiveJobs) to handle delayed actions"
+      - responsibility: "Researching architecture for OpenAPI to enable third-party services integration"
+    skills_acquired:
+      - "Ruby on Rails"
+      - "ReactJS"
+      - "System Test"
+  
 projects:
+  - name: "AI-Email Provider"
+    description: "Building a better Gmail"
+    link: "https://email-ai-saas.vercel.app/"
+
   - name: "AI-Agent Powered Story Builder App"
     description: "Currently optimizing it run it cheaply"
-    
+    link: "https://github.com/mikececco/story-teller"
+
   - name: "AI-Notion Clone App"
     description: "App with real-time collaboration"
+    link: "https://github.com/mikececco/notion-clone"
     
   - name: "AI-Image Editor"
     description: "Credit based AI-image editor to remove objects, fill generatively, recolor image, remove background"
+    link: "https://github.com/mikececco/imagify"
 
 work_preferences:
   remote_work: "Yes"
-  in_person_work: "[Yes/No]"
-  open_to_relocation: "[Yes/No]"
+  in_person_work: "No"
+  open_to_relocation: "No"
 
 achievements:
   - name: "[Achievement Name]"
@@ -81,18 +101,18 @@ certifications:
     description: "[Certification Description]"
 
 languages:
-  - language: "[Language]"
-    proficiency: "[Proficiency Level]"
-  - language: "[Language]"
-    proficiency: "[Proficiency Level]"
+  - language: "English"
+    proficiency: "Professional"
+  - language: "Italy"
+    proficiency: "Native"
 
 interests:
-  - "[Interest]"
-  - "[Interest]"
-  - "[Interest]"
+  - "AI"
+  - "Saas"
+  - "Health"
 
 availability:
-  notice_period: "[Notice Period]"
+  notice_period: "Immediately"
 
 salary_expectations:
   salary_range_usd: "[Salary Range]"
@@ -106,28 +126,28 @@ self_identification:
 
 
 legal_authorization:
-  eu_work_authorization: "[Yes/No]"
-  us_work_authorization: "[Yes/No]"
-  requires_us_visa: "[Yes/No]"
-  requires_us_sponsorship: "[Yes/No]"
-  requires_eu_visa: "[Yes/No]"
-  legally_allowed_to_work_in_eu: "[Yes/No]"
-  legally_allowed_to_work_in_us: "[Yes/No]"
-  requires_eu_sponsorship: "[Yes/No]"
-  canada_work_authorization: "[Yes/No]"
-  requires_canada_visa: "[Yes/No]"
-  legally_allowed_to_work_in_canada: "[Yes/No]"
-  requires_canada_sponsorship: "[Yes/No]"
-  uk_work_authorization: "[Yes/No]"
-  requires_uk_visa: "[Yes/No]"
-  legally_allowed_to_work_in_uk: "[Yes/No]"
-  requires_uk_sponsorship: "[Yes/No]"
+  eu_work_authorization: "Yes"
+  us_work_authorization: "No"
+  requires_us_visa: "Yes"
+  requires_us_sponsorship: "Yes"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "No"
+  requires_eu_sponsorship: "No"
+  canada_work_authorization: "Yes"
+  requires_canada_visa: "Yes"
+  legally_allowed_to_work_in_canada: "No"
+  requires_canada_sponsorship: "Yes"
+  uk_work_authorization: "No"
+  requires_uk_visa: "Yes"
+  legally_allowed_to_work_in_uk: "No"
+  requires_uk_sponsorship: "Yes"
 
 
 work_preferences:
-  remote_work: "[Yes/No]"
-  in_person_work: "[Yes/No]"
-  open_to_relocation: "[Yes/No]"
-  willing_to_complete_assessments: "[Yes/No]"
-  willing_to_undergo_drug_tests: "[Yes/No]"
-  willing_to_undergo_background_checks: "[Yes/No]"
+  remote_work: "Yes"
+  in_person_work: "No"
+  open_to_relocation: "No"
+  willing_to_complete_assessments: "Yes"
+  willing_to_undergo_drug_tests: "Yes"
+  willing_to_undergo_background_checks: "Yes"
